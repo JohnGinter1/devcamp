@@ -1,0 +1,107 @@
+.nav-bar-wrapper {
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4px;
+    padding: 60px 100px;
+    background-color: black;
+}
+
+.left-colum {
+    margin-left: -60px;
+}
+
+.left-colum > .logo img {
+    width: 216px;
+    height: 100%;
+}
+
+.nav-links > .nav-link a {
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 444px;
+}
+
+.nav-links {
+    display: flex;
+    font-weight: 600;
+}
+
+.center-colum {
+    margin-left: -250px;
+    margin-bottom: 25px;
+}
+
+.explore p {
+    color: #fed97b;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.nav-links > .spark a {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-links > .spark a mark {
+    background-color: black;
+    color: grey;
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.btns > .btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 100px;
+    background-color: #414141;
+    color: white;
+    padding: 10px;
+    border: 1px solid #414141;
+    border-radius: 2px;
+}
+
+.btns > .btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.btns > .btn a mark {
+    display: flex;
+    background-color: #414141;
+    color: #0b790b;
+    font-weight: 900;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btns > .man {
+    background: black;
+    color: white;
+}

@@ -1,0 +1,20 @@
+.boxes {
+    display: flex;
+    justify-content: center;
+    background-color: #393939;
+    margin: -8px;
+} 
+
+.boxes > .box {
+    display: flex;
+    width: 100%;
+    border: 1px #686868 solid;
+    justify-content: center;
+    color: white;
+}
+.boxes > .box mark {
+    background-color: #393939;
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+}
